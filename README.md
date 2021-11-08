@@ -11,7 +11,7 @@ The source code and scripts for our paper: "[An Exploratory Study on Long Dialog
 - Install [fairseq](https://github.com/pytorch/fairseq) and dependencies.
 - Prepare the dataset as shown in [fairseq](https://github.com/pytorch/fairseq) website, i.e. each sample takes up one line. (e.g /QMSum/test.source)
 - Modify the names and parameters in `run.sh` and `inference.py`.
-- Do the rest of the steps in the "Running Example" session.
+- Do the rest of the steps in the "Running on QMSum" session.
 
 ### Citation
 ``` bibtex

@@ -14,7 +14,7 @@ The source code and scripts for our paper: "[An Exploratory Study on Long Dialog
 - Do the rest of the steps in the "Running Example" session.
 
 ### Citation
-```latex
+``` bibtex
 @inproceedings{zhang-etal-2021-exploratory-study,
     title = "An Exploratory Study on Long Dialogue Summarization: What Works and What{'}s Next",
     author = "Zhang, Yusen  and

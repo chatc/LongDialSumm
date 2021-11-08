@@ -10,12 +10,9 @@ output_path = "QMSum/test.hypo"
 
 print("input:", test_path)
 print("output:", output_path)
-# test_path = "./QMSum/test.source"
-# output_path = "./QMSum/test_cnn_samsum.hypo"
+
 bart = BARTModel.from_pretrained(
     'checkpoints/',
-    # '/home/yfz5488/summ/fair2/checkpoints/',
-    # "./",
     checkpoint_file='checkpoint_best.pt',
     data_name_or_path='EXP/QMSum-bin'
 )
